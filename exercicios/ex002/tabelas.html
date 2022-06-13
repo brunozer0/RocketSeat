@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando uma tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .títulos {
+            background-color: lightgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="títulos" >
+                <th></th>
+                <th class="títulos" scope="colgroup" colspan="2" >Loja 1</th>
+                <th class="títulos"  scope="colgroup" colspan="2">Loja 2</th>
+            </tr>
+            <tr class="títulos" >
+                <th></th>
+                <th scope="col">P</th>
+                <th scope="col">V</th>
+                <th scope="col">P</th>
+                <th scope="col">V</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="títulos">P1</th>
+                <td>50</td>
+                <td>30</td>
+                <td>50</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <th class="títulos">P2</th>
+                <td>10</td>
+                <td>6</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
